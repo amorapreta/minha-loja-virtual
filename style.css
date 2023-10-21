@@ -1,0 +1,218 @@
+ * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.cabecalho {
+    background-color: #7C71FF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    width: 1440px;
+}
+.vestuario {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#catalogo {
+  display: flex;
+}
+li {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 50px;
+    margin-right: 10px;
+    color: #200065
+}
+
+.icone-casa {
+    background: #200065;
+    text-transform: uppercase;
+}
+
+.icone {
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.info-usuario {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 34px;
+    margin-left: 30px;
+}
+
+.nome {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 22px;
+    width: 252px;
+    height: 42px;
+}
+
+.apresentacao-colecao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    width: 1440px;
+    background-color: #D7E2FF;
+}
+
+.titulo {
+    text-align: center;
+    color: #200065;
+    margin-bottom: 5px;
+    margin-top: 29px;
+    font-weight: 700;
+    font-size: 36px;
+    font-family: Abril Fatface;
+}
+
+.subtitulo {
+    color: #200065;
+    text-align: center;
+    font-family: Abril Fatface;
+    font-weight: 400;
+}
+img {
+    margin-left: 47px;
+    display: inline-block;
+    padding: 30px;
+}
+
+.site {
+    display: block;
+    color: #0075FF;
+    width: 209px;
+    height: 22px;
+    margin-top:15px;
+    margin-bottom: 5px;
+}
+
+.titulo-secao {
+    color: #200065;
+    font-weight: 600;
+    font-size: 32px;
+    text-align: center;
+    padding-top: 37px;
+    font-family: Abril Fatface;
+}
+#clientes{
+    background-color: #AEBFEB;
+    width: 1440px;
+}
+.avaliacao-clientes {
+    height: 616px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.avaliacao{
+    background-color:#D7E2FF;
+    width: 427px;
+    height: 427px;
+}
+.nome-avaliador{
+    width: 205px;
+    height: 43px;
+    padding-top: 38px;
+    margin-left:48px;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: Abril Fatface;
+    color: #200065;
+}
+.historico-avaliador{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 48px;
+    height: 22px;
+    width: 356px;
+}
+.opiniao-cliente{
+    height: 116px;
+    width: 300px;
+    padding-top: 100px;
+    margin-left: 40px;
+    font-size: 24px;
+    font-weight: 400;
+}
+.tabela-pedidos {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    height: 441px;
+    background: #D7E2FF;
+    align-items: center;
+
+}
+.pedido-tabela{
+    margin-top: 15px;
+    margin-left: 40px;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+.pedido-tabela > tbody, thead, th, td{
+    border: 1px solid #1E1E1E;
+    width: 250px;
+    height: 50px;
+    text-align: left;
+    padding-left: 10px;
+}
+.pedido-tabela > tbody {
+    background-color: #ffffff;
+}
+.cabecalho-tabela {
+    background-color: #7C71FF;
+}
+.formulario{
+    width: 1280px;
+    height: 658px;
+    background-color: #AEBFEB;
+    padding-left: 160px;
+}
+.respostas-usuario {
+    width: 1141px;
+    height: 84px;
+    margin-top: 1px;
+    margin-bottom: 10px;
+    max-width: 161px;
+}
+.respostas-usuario > input {
+    width: 1141px;
+    height: 48px;
+}
+/* .respostas-usuario > textarea{
+    width: 1141px;
+    height: 161px;
+} */
+
+button{
+    width: 270px;
+    height: 48px;
+    color: #ffffff;
+    background-color: #1E1E1E;
+    font-size: 22px;
+    font-weight: 400;
+}
+footer {
+    background: #7c71b5;
+    height: 100px;
+    width: 1425px;
+    padding-top: 20px;
+    padding-left: 15px;
+    font-size: 30px;
+    font-weight: 400;
+    color: #7b5d99;
+}
